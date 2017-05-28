@@ -1,2 +1,2 @@
 # GTC-2017
-GPU Technology Conference 2017 talk
+This repository contains slides that describe my work porting performance-critical physics routines for the Air Force Research Laboratory's in-house rocket CFD code from Fortran to C++ using [Kokkos](https://github.com/kokkos/kokkos).  Kokkos allows the same codebase to compile for Nvidia GPUs, Intel Xeon Phis, or multicore vector CPUs.  I optimized the Kokkos-enabled routines for all of the above architectures.  Significant speedups are observed when the backend is compiled for GPUs in particular.
